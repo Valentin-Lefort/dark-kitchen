@@ -1,0 +1,298 @@
+header {
+    max-height: 8rem;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+
+    .switch {
+        margin: 10% 0 0 10%;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .lblInput {
+        margin: 10% 10% 0 0;
+        justify-self: end;
+        align-self: center;
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+        #checkbox {
+            display: none;
+            position: relative;
+        }
+
+        #shop {
+            position: absolute;
+            top: 8%;
+            right: 0;
+            display: block;
+            border: 10px solid #fff;
+            background-color: rgb(0, 0, 0);
+            width: 350px;
+            z-index: 1;
+            color:white;
+
+            li {
+                margin: 10% auto;
+                padding: 20px;
+                max-width: 600px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                button {
+                    width: 40px;
+                }
+            }
+        }
+    }
+
+    .title {
+        margin: 0;
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    #foods {
+        margin: 0 0 10px 10%;
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 150px;
+        height: 20px;
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        align-self: flex-end;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 425px) {
+    header {
+        max-height: 10rem;
+    }
+
+    .head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+        height: auto;
+
+        .switch {
+            margin: 10% 0 0 10%;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .lblInput {
+            margin: 10% 10% 0 0;
+            justify-self: end;
+            align-self: center;
+            grid-column: 2/3;
+            grid-row: 1/2;
+
+            #checkbox {
+                display: none;
+                position: relative;
+            }
+
+            #shop {
+                position: absolute;
+                top: 8%;
+                right: 0;
+                display: block;
+                border: 10px solid #fff;
+                background-color: rgb(0, 0, 0);
+                width: 350px;
+                z-index: 1;
+                color:white;
+
+                li {
+                    margin: 10% auto;
+                    padding: 20px;
+                    max-width: 600px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    button {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+
+        .title {
+            margin: 0;
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+
+        #foods {
+            margin: 0 0 10px 10%;
+            grid-column: 1/2;
+            grid-row: 3/4;
+            width: 150px;
+            height: 20px;
+            font-family: "Poppins", sans-serif;
+            font-size: 12px;
+            align-self: flex-end;
+        }
+    }
+}
+
+@media screen and (min-width:425px) and (max-width: 768px) {
+    header {
+        max-height: 13rem;
+    }
+
+    .head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+        height: auto;
+
+        .switch {
+            margin: 10% 0 0 10%;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .lblInput {
+            margin: 10% 10% 0 0;
+            justify-self: end;
+            align-self: center;
+            grid-column: 2/3;
+            grid-row: 1/2;
+
+            #checkbox {
+                display: none;
+                position: relative;
+            }
+
+            #shop {
+                position: absolute;
+                top: 9%;
+                right: 0;
+                display: block;
+                border: 10px solid #fff;
+                background-color: rgb(0, 0, 0);
+                width: 350px;
+                z-index: 1;
+                color:white;
+
+                li {
+                    margin: 10% auto;
+                    padding: 20px;
+                    max-width: 600px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    button {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+
+        .title {
+            margin: 0;
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+
+        #foods {
+            margin: 0 0 10px 10%;
+            grid-column: 1/2;
+            grid-row: 3/4;
+            width: 150px;
+            height: 20px;
+            font-family: "Poppins", sans-serif;
+            font-size: 12px;
+            align-self: flex-end;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    header {
+        max-height: 22rem;
+    }
+
+    .head {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+        height: auto;
+
+        .switch {
+            margin: 10% 0 0 20%;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .lblInput {
+            margin: 10% 10% 0 0;
+            justify-self: end;
+            align-self: center;
+            grid-column: 2/3;
+            grid-row: 1/2;
+
+            #checkbox {
+                display: none;
+                position: relative;
+            }
+
+            #shop {
+                position: absolute;
+                top: 9%;
+                right: 0;
+                display: block;
+                border: 10px solid #fff;
+                background-color: rgb(0, 0, 0);
+                width: 350px;
+                z-index: 1;
+                color:white;
+
+                li {
+                    margin: 10% auto;
+                    padding: 20px;
+                    max-width: 600px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    button {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+
+        .title {
+            margin: 0;
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+
+        #foods {
+            margin: 0 0 10px 20%;
+            grid-column: 1/2;
+            grid-row: 3/4;
+            width: 150px;
+            height: 20px;
+            font-family: "Poppins", sans-serif;
+            font-size: 12px;
+            align-self: flex-end;
+        }
+    }
+}

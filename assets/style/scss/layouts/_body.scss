@@ -1,0 +1,498 @@
+body {
+    background: rgb(119, 117, 117);
+    background: radial-gradient(circle, rgba(119, 117, 117, 1) 0%, rgba(38, 38, 41, 1) 35%);
+    color: white;
+}
+
+header {
+    .cart {
+        width: 25px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 5%;
+
+        #entree {
+            min-width: 75%;
+            border: solid white 10px;
+
+            .appetizers {
+                display: grid;
+                grid-template-columns: 35% 65%;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+                border-bottom: solid rgb(150, 150, 150) 2px;
+                border-radius: 2px;
+
+                .illu-entree {
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                }
+
+                .carts {
+                    width: 25px;
+                    padding-left: 10%;
+                    align-items: center;
+                    justify-content: center;
+                    filter: drop-shadow(5px 5px 5px #626060);
+
+                    &:hover {
+                        filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                    }
+                }
+            }
+        }
+
+        #plats {
+            min-width: 75%;
+            border: solid white 10px;
+
+            .mainDish {
+                display: grid;
+                grid-template-columns: 35% 65%;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+                border-bottom: solid rgb(150, 150, 150) 2px;
+                border-radius: 2px;
+
+                .illu-plats {
+                    max-height: 60px;
+                    max-width: 50px;
+                    border-radius: 50px;
+                }
+
+                .carts {
+                    width: 25px;
+                    padding-left: 10%;
+                    align-items: center;
+                    justify-content: center;
+                    filter: drop-shadow(5px 5px 5px #626060);
+
+                    &:hover {
+                        filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                    }
+                }
+            }
+        }
+
+        #desserts {
+            min-width: 75%;
+            border: solid white 10px;
+
+            .desert {
+                display: grid;
+                grid-template-columns: 35% 65%;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+                border-bottom: solid rgb(150, 150, 150) 2px;
+                border-radius: 2px;
+
+                .illu-desserts {
+                    max-height: 60px;
+                    max-width: 50px;
+                    border-radius: 50px;
+                }
+
+                .carts {
+                    width: 25px;
+                    padding-left: 10%;
+                    align-items: center;
+                    justify-content: center;
+                    filter: drop-shadow(5px 5px 5px #626060);
+
+                    &:hover {
+                        filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                    }
+                }
+            }
+        }
+
+        #boissons {
+            min-width: 75%;
+            border: solid white 10px;
+
+            .drink {
+                display: grid;
+                grid-template-columns: 35% 65%;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+                border-bottom: solid rgb(150, 150, 150) 2px;
+                border-radius: 2px;
+
+                .illu-drink {
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50px;
+                }
+
+                .carts {
+                    width: 25px;
+                    padding-left: 10%;
+                    align-items: center;
+                    justify-content: center;
+                    filter: drop-shadow(5px 5px 5px #626060);
+
+                    &:hover {
+                        filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        #entree {
+            min-width: 75%;
+            border: solid white 10px;
+            margin-left: 5%;
+            margin-right: 5%;
+
+            .appetizers {
+                display: grid;
+                grid-template-columns: 35% 65%;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+                border-bottom: solid rgb(150, 150, 150) 2px;
+                border-radius: 2px;
+
+                .illu-entree {
+                    max-height: 80px;
+                    max-width: 80px;
+                    border-radius: 50px;
+                }
+
+                .carts {
+                    width: 25px;
+                    padding-left: 10%;
+                    align-items: center;
+                    justify-content: center;
+                    filter: drop-shadow(5px 5px 5px #626060);
+
+                    &:hover {
+                        filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                    }
+                }
+            }
+        }
+
+        #plats {
+            min-width: 75%;
+            border: solid white 10px;
+            margin-left: 5%;
+            margin-right: 5%;
+
+            .mainDish {
+                display: grid;
+                grid-template-columns: 35% 65%;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+                border-bottom: solid rgb(150, 150, 150) 2px;
+                border-radius: 2px;
+
+                .illu-plats {
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 50px;
+                }
+
+                .carts {
+                    width: 25px;
+                    padding-left: 10%;
+                    align-items: center;
+                    justify-content: center;
+                    filter: drop-shadow(5px 5px 5px #626060);
+
+                    &:hover {
+                        filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                    }
+                }
+            }
+        }
+
+        #desserts {
+            min-width: 75%;
+            border: solid white 10px;
+            margin-left: 5%;
+            margin-right: 5%;
+
+            .desert {
+                display: grid;
+                grid-template-columns: 35% 65%;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+                border-bottom: solid rgb(150, 150, 150) 2px;
+                border-radius: 2px;
+
+                .illu-desserts {
+                    max-height: 80px;
+                    max-width: 80px;
+                    border-radius: 50px;
+                }
+
+                .carts {
+                    width: 25px;
+                    padding-left: 10%;
+                    align-items: center;
+                    justify-content: center;
+                    filter: drop-shadow(5px 5px 5px #626060);
+
+                    &:hover {
+                        filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                    }
+                }
+            }
+        }
+
+        #boissons {
+            min-width: 75%;
+            border: solid white 10px;
+            margin-left: 5%;
+            margin-right: 5%;
+
+            .drink {
+                display: grid;
+                grid-template-columns: 35% 65%;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+                border-bottom: solid rgb(150, 150, 150) 2px;
+                border-radius: 2px;
+
+                .illu-drink {
+                    max-height: 80px;
+                    max-width: 80px;
+                    border-radius: 50px;
+                }
+
+                .carts {
+                    width: 25px;
+                    padding-left: 10%;
+                    align-items: center;
+                    justify-content: center;
+                    filter: drop-shadow(5px 5px 5px #626060);
+
+                    &:hover {
+                        filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width:767px) {
+
+    //création du site en version desktop
+    .container {
+        display: grid;
+        gap: 50px;
+        margin-left: 10%;
+
+        #entree {
+            width: 85%;
+            display: grid;
+            grid-template-columns: auto;
+            border: solid white 10px;
+            gap: 10px;
+            padding-bottom: 3%;
+
+            .appetizers {
+
+                display: grid;
+                grid-template-columns: 18% auto 7% 7%;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+
+                .illus {
+                    width: 120px;
+
+                    .illu-entree {
+                        max-height: 100px;
+                        max-width: 100px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .info-entree {
+                    border-bottom: solid grey 1px;
+                }
+
+                .buy {
+                    img.carts {
+                        width: 50px;
+                        padding-left: 10%;
+                        align-items: center;
+                        justify-content: center;
+                        filter: drop-shadow(5px 5px 5px #626060);
+
+                        &:hover {
+                            filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                        }
+                    }
+                }
+            }
+        }
+
+        #plats {
+            width: 85%;
+            display: grid;
+            grid-template-columns: auto;
+            border: solid white 10px;
+            gap: 10px;
+            padding-bottom: 3%;
+
+            .mainDish {
+
+                display: grid;
+                grid-template-columns: 18% auto 7% 7%;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+
+                .illus {
+                    width: 120px;
+
+                    .illu-plats {
+                        max-height: 100px;
+                        max-width: 100px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .info-plat {
+                    border-bottom: solid grey 1px;
+                }
+
+                .buy {
+                    img.carts {
+                        width: 50px;
+                        padding-left: 10%;
+                        align-items: center;
+                        justify-content: center;
+                        filter: drop-shadow(5px 5px 5px #626060);
+
+                        &:hover {
+                            filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                        }
+                    }
+                }
+            }
+
+        }
+
+        #desserts {
+            width: 85%;
+            display: grid;
+            grid-template-columns: auto;
+            border: solid white 10px;
+            gap: 10px;
+            padding-bottom: 3%;
+
+            .desert {
+                display: grid;
+                grid-template-columns: 18% auto 7% 7%;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+
+                .illus {
+                    width: 120px;
+
+                    .illu-desserts {
+                        max-height: 100px;
+                        max-width: 100px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .info-desert {
+                    border-bottom: solid grey 1px;
+                }
+
+                .buy {
+                    width: 40px;
+                }
+            }
+        }
+
+        #boissons {
+            width: 85%;
+            display: grid;
+            grid-template-columns: auto;
+            border: solid white 10px;
+            gap: 10px;
+            padding-bottom: 3%;
+
+            .drink {
+                display: grid;
+                grid-template-columns: 18% auto 7% 7%;
+                align-items: center;
+                margin-left: 3%;
+                margin-right: 3%;
+
+                .illus {
+                    width: 120px;
+
+                    .illu-drink {
+                        max-height: 100px;
+                        max-width: 100px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .info-drink {
+                    border-bottom: solid grey 1px;
+                }
+
+                .buy {
+                    width: 40px;
+                }
+            }
+        }
+
+        .buy {
+            img.carts {
+                width: 50px;
+                padding-left: 10%;
+                align-items: center;
+                justify-content: center;
+                filter: drop-shadow(5px 5px 5px #626060);
+
+                &:hover {
+                    filter: invert(94%) sepia(91%) saturate(6575%) hue-rotate(323deg) brightness(109%) contrast(102%) drop-shadow(0.5rem 0.5rem 0.5rem rgb(223, 192, 199));
+                }
+            }
+        }
+    }
+}

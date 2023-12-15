@@ -1,0 +1,187 @@
+@media screen and (min-width:320px) and (max-width:425px) {
+    header {
+
+        h1.title {
+            font-family: "Sassy Frass", cursive;
+            font-size: 73px;
+            text-align: center;
+            margin-top: 34px;
+            margin-bottom: 0;
+            justify-content: center;
+        }
+    }
+
+
+    h2 {
+        font-family: "Sassy Frass", cursive;
+        font-size: 35px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+    }
+
+    h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+
+    }
+
+    h4 {
+        font-family: "Sassy Frass", cursive;
+        color: #fce542;
+        font-size: 20px;
+        text-align: right;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .customerName {
+        font-family: "Sassy Frass", cursive;
+        color: #fce542;
+        font-size: 40px;
+        margin-bottom: 1rem;
+    }
+
+    .date {
+        font-family: "Sassy Frass", cursive;
+        font-size: 30px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .avis {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    header {
+        h1.title {
+            font-family: "Sassy Frass", cursive;
+            font-size: 80px;
+            text-align: center;
+            margin-top: 34px;
+            margin-bottom: 0;
+            justify-content: center;
+        }
+    }
+
+
+    h2 {
+        font-family: "Sassy Frass", cursive;
+        font-size: 40px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+    }
+
+    h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+
+    }
+
+    h4 {
+        font-family: "Sassy Frass", cursive;
+        color: #fce542;
+        font-size: 25px;
+        text-align: right;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .customerName {
+        font-family: "Sassy Frass", cursive;
+        color: #fce542;
+        font-size: 40px;
+    }
+
+    .date {
+        font-family: "Sassy Frass", cursive;
+        font-size: 30px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .avis {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (min-width:767px) {
+    header {
+        h1 {
+            font-family: "Sassy Frass", cursive;
+            font-size: 100px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 3%;
+        }
+    }
+
+
+    h2 {
+        font-family: "Sassy Frass", cursive;
+        font-size: 40px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+    }
+
+    h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+
+    }
+
+    h4 {
+        font-family: "Sassy Frass", cursive;
+        color: #fce542;
+        font-size: 25px;
+
+    }
+
+    .customerName {
+        font-family: "Sassy Frass", cursive;
+        color: #fce542;
+        font-size: 50px;
+    }
+
+    .date {
+        font-family: "Sassy Frass", cursive;
+        font-size: 40px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .avis {
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    button {
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+}

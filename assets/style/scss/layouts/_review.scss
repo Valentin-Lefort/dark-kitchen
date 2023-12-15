@@ -1,0 +1,127 @@
+@media screen and (min-width:320px) and (max-width:425px) {
+    .reviews {
+        display: grid;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-bottom:50px;
+
+        .customerReview {
+            display:grid;
+            justify-items:center;
+            border: solid white 10px;
+
+            .picture {
+                border-radius: 50%;
+                border:solid #fce542 5px;
+                width: 100px;
+            }
+
+            .avis {
+                max-width: 350px;
+                margin-bottom:10%;
+                margin-left:5%;
+                margin-right: 5%;
+            }
+        }
+    }
+    .add {
+        margin-left: 22%;
+        margin-bottom:3%;
+        margin-top:3%;
+        padding: 25px;
+        border-radius: 10px;
+        background-color: #fce542;
+        filter: drop-shadow(5px 5px 5px #626060);
+        &:hover {
+            filter: drop-shadow(5px 5px 5px white);
+        }
+    } 
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    .reviews {
+        display: grid;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-bottom:50px;
+
+        .customerReview {
+            display:grid;
+            justify-items:center;
+            border: solid white 10px;
+
+            .picture {
+                border-radius: 50%;
+                border:solid #fce542 5px;
+                width: 100px;
+            }
+
+            .avis {
+                max-width: 350px;
+                margin-bottom:10%;
+                margin-left:5%;
+                margin-right: 5%;
+            }
+        }
+    }
+    .add {
+        margin-left: 40%;
+        margin-bottom:3%;
+        margin-top:3%;
+        padding: 25px;
+        border-radius: 10px;
+        background-color: #fce542;
+        filter: drop-shadow(5px 5px 5px #626060);
+        &:hover {
+            filter: drop-shadow(5px 5px 5px white);
+        }
+    } 
+}
+
+@media screen and (min-width:767px) {
+    .reviews {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom:50px;
+
+        .customerReview {
+            display:grid;
+            justify-items:center;
+            border: solid white 10px;
+
+            .picture {
+                border-radius: 50%;
+                border:solid #fce542 5px;
+                width: 100px;
+            }
+
+            .avis {
+                max-width: 350px;
+                margin-bottom:10%;
+                margin-left:5%;
+                margin-right: 5%;
+            }
+        }
+    }
+    .add {
+        margin-left:41%;
+        margin-bottom:3%;
+        margin-top:3%;
+        padding: 25px;
+        border-radius: 10px;
+        background-color: #fce542;
+        filter: drop-shadow(5px 5px 5px #626060);
+        &:hover {
+            filter: drop-shadow(5px 5px 5px white);
+        }
+    }
+}

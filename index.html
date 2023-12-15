@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/scss/style.css">
+    <title>Le Clan Pain</title>
+</head>
+
+<body>
+    <header class="head">
+        <!--boutton-->
+        <label class="switch">
+            <input type="checkbox" id="toggle">
+            <span class="slider"></span>
+        </label>
+
+        <!--caddie-->
+        <label class="lblInput">
+            <input type="checkbox" id="checkbox">
+            <img class="cart" src="images/logo/cart-shopping-solid.svg" alt="Cart logo">
+            <div id="shop"></div>
+        </label>
+
+
+        <!--titre-->
+        <h1 class="title">Le Clan Pain</h1>
+
+        <!--tri sélectif-->
+        <select id="foods"> <!-- Créer la section pour ajouter les options -->
+            <option value="all">Toute les catégories</option>
+            <option value="entrees">Entrées</option>
+            <option value="plats">Plats</option>
+            <!-- "value" permet que se soit une requêtes et non juste du text -->
+            <option value="desserts">Desserts</option>
+            <option value="boissons">Boissons</option>
+        </select>
+
+
+
+
+    </header>
+
+    <div class="container">
+        <section id="entree">
+
+        </section>
+        <section id="plats">
+
+        </section>
+        <section id="desserts">
+
+        </section>
+        <section id="boissons">
+
+        </section>
+        
+    </div>
+
+    <section class=review>
+        <button class="add">Give us your feedback!</button>
+    </section>
+
+    <!-- Mise en place du footer -->
+    <footer id="footer">
+        <h2>Want to hear more about us ?</h2>
+        <section class="container-a">
+            <div class="contacts">
+                <!-- Moyen de contacter le magasin -->
+                <ul class="listeContacts">
+                    <li><a href="https://leclanpains.be/clan" target="_blank">About Us</a></li>
+                    <li><a href="#">Mentions Légales</a></li>
+                    <li><a href="#">Allèrgènes</a></li>
+                    <li class="telephoneNumber"><a href="tel:0032112239841" target="_blank">+32 112 23 98 41</a></li>
+                    <li class="telephonePicture"><a href="tel:0032112239841" target="_blank"><img
+                                src="./images/logo/telephone.svg" alt="Telephone"></a></li>
+                    <li class="maps"><a
+                            href="https://www.google.com/maps/place/Chemin+du+Griffon+1,+1340+Ottignies-Louvain-la-Neuve/@50.6766868,4.540957,14.14z/data=!4m6!3m5!1s0x47c3d67684dd0fbf:0x252c09e0bbb5538a!8m2!3d50.6770104!4d4.549561!16s%2Fg%2F11f5k1_q0j?entry=ttu"
+                            target="_blank">Maps</a></li>
+                </ul>
+
+            </div>
+            <div class="googleMaps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20226.645376850716!2d4.540957!3d50.6766868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3d67684dd0fbf%3A0x252c09e0bbb5538a!2sChemin%20du%20Griffon%201%2C%201340%20Ottignies-Louvain-la-Neuve!5e0!3m2!1sfr!2sbe!4v1695729000898!5m2!1sfr!2sbe"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+        <section class="container-b">
+            <div class="links">
+                <!-- liens externe vers les reseaux sociaux -->
+                <ul class="listeLiens">
+                    <li><a href="https://www.facebook.com/LeClanPains" target="_blank"><img
+                                src="./images/logo/facebook-f.svg" alt="Facebook" class="fb"></a></li>
+                    <li><a href="https://www.instagram.com/le_clan_pains?fbclid=IwAR0OreF_46UdgKiWyWMubWSKdPfbVOawPJBf7ku-UGXPnOvd3ad7Vl3N0Sk"
+                            target="_blank"><img src="./images/logo/instagram.svg" alt="instagram" class="ig"></a></li>
+                    <li><a href="https://www.tiktok.com/@_spam.exe_/video/7032677000590478597?q=le%20clan%20pains&t=1695643842862"
+                            target="_blank"><img src="./images/logo/tiktok.svg" alt="TikTok" class="TT">
+                        </a></li>
+                </ul>
+            </div>
+
+        </section>
+
+        <div class="copyright">
+            <p class="copyFont">&copy; 2023 Les Clanpins : Lidwine Rosalie Valentin Robin</p>
+        </div>
+
+
+    </footer>
+</body>
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/cabdd58b8c.js" crossorigin="anonymous"></script>
+
+</html>
